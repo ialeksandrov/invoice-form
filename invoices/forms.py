@@ -1,7 +1,6 @@
 from django import forms
 
 from invoices.models import Customer
-from invoices.models import CustomerItems
 import datetime
 
 class InvoiceForm(forms.Form):
